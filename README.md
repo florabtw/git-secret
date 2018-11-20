@@ -25,7 +25,7 @@ docker pull ncpierson/git-secret
 
 To use a git secret command:
 
-```
+```bash
 command=`cat <<EOF
 gpg --batch --import secret.gpg && \
   git secret reveal -p $PASSWORD
@@ -45,4 +45,4 @@ provided you have a `secret.gpg` file and `$PASSWORD` is the password for it.
 # Contributing
 
 Built by [Nick Pierson](https://nick.exposed).
-Pull requests welcome! I will happily deploy to Docker hub, as well.
+Pull requests welcome!
