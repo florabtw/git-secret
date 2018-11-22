@@ -56,5 +56,9 @@ repo. Check out `.travis.yml` and `scripts/travis/decrypt.sh` for details.
 
 # Contributing
 
-Built by [Nick Pierson](https://nick.exposed).
+Built by:
+
+- [Nick Pierson](https://nick.exposed)
+- [Simon Massey](https://github.com/simbo1905)
+
 Pull requests welcome!
