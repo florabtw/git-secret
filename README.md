@@ -39,8 +39,12 @@ docker run             \
   bash -c "$command"
 ```
 
+
 For instance, this would reveal secrets in your current working directory,
 provided you have a `secret.gpg` file and `$PASSWORD` is the password for it.
+
+Alternatively you can add `git-secret-reveal-docker.sh` and `git-secret-hide-docker.sh` 
+to your repo which automates extracting your key the first time you run it. 
 
 # Contributing
 
