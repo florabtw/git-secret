@@ -15,6 +15,8 @@ Latest image contains:
 - gpg: 2.2.20
 - git-secret: 0.3.2
 
+Check [releases](https://github.com/ncpierson/git-secret/releases) for info on what versions are included in each docker image.
+
 # Usage
 
 To pull this container:
@@ -46,13 +48,6 @@ provided you have a `secret.gpg` file and `$PASSWORD` is the password for it.
 Alternatively you can add `git-secret-reveal-docker.sh` and `git-secret-hide-docker.sh` 
 to your repo which automates extracting your key the first time you run it. 
 
-# Examples
-
-## In Travis CI
-
-[soundoftext-api](https://github.com/ncpierson/soundoftext-api) uses the
-`ncpierson/git-secret` docker image on Travis CI to decrypt secret files in the
-repo. Check out `.travis.yml` and `scripts/travis/decrypt.sh` for details.
 
 # Contributing
 
