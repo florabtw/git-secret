@@ -15,6 +15,7 @@ echo "Using version: $version"
 
 git add .version
 git commit -m "v$version"
+git tag $version
 
 git push
 git push --tags
