@@ -9,11 +9,11 @@ consistency with my personal development environments.
 
 # Info
 
-Image contains:
+Latest image contains:
 
-- Ubuntu: 18.04
-- gpg: 2.2
-- git-secret: 0.2.4
+- Ubuntu: 20.10
+- gpg: 2.2.20
+- git-secret: 0.3.2
 
 # Usage
 
